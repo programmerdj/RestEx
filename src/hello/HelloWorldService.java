@@ -22,7 +22,7 @@ public class HelloWorldService {
   @Produces("text/html")
   public Response getLocalCust() {
  
-           String output = "I am from 'getLocalCust' method Deepak";
+           String output = "I am from 'getLocalCust' method Deepak Jadhav";
            return Response.status(200).entity(output).build();
   }
  

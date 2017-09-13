@@ -22,7 +22,7 @@ public class HelloWorldService {
   @Produces("text/html")
   public Response getLocalCust() {
  
-           String output = "I am from 'getLocalCust' method Deepak Jadhav";
+           String output = "I am from 'getLocalCust' method ";
            return Response.status(200).entity(output).build();
   }
  
@@ -32,7 +32,7 @@ public class HelloWorldService {
   public Response getNriCust() {
 	  logger.warn("This is warn : ");
 	  runMe("Deepak");
-            String output = "I am from 'getNriCust' method 2nd commit";
+            String output = "I am from 'getNriCust' method";
             return Response.status(200).entity(output).build();
   }
   

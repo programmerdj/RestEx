@@ -32,7 +32,7 @@ public class HelloWorldService {
   public Response getNriCust() {
 	  logger.warn("This is warn : ");
 	  runMe("Deepak");
-            String output = "I am from 'getNriCust' method";
+            String output = "I am from 'getNriCust' method 2nd commit";
             return Response.status(200).entity(output).build();
   }
   
